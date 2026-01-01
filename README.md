@@ -186,22 +186,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 1. Spirtes, P., Glymour, C., & Scheines, R. (2000). *Causation, Prediction, and Search*. MIT Press.
 2. Colombo, D., & Maathuis, M. H. (2014). Order-independent constraint-based causal structure learning. *Journal of Machine Learning Research*, 15(1), 3741-3782.
 3. Kalisch, M., & Bühlmann, P. (2007). Estimating high-dimensional directed acyclic graphs with the PC-algorithm. *Journal of Machine Learning Research*, 8, 613-636.
-
-## Citation
-
-If you use this implementation in your research, please cite:
-
-```bibtex
-@software{possner2024pc,
-  author = {Possner, Lucas},
-  title = {PC Algorithm: Python Implementation for Causal Discovery},
-  year = {2024},
-  url = {https://github.com/lpossner/pc_algorithm}
-}
-```
-
-## Contact
-
-Lucas Possner - [@lpossner](https://github.com/lpossner)
-
-Project Link: [https://github.com/lpossner/pc_algorithm](https://github.com/lpossner/pc_algorithm)
