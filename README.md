@@ -36,23 +36,6 @@ After obtaining the skeleton, the algorithm orients edges using a series of rule
 
 The result is a CPDAG representing the equivalence class of DAGs consistent with the data.
 
-## Installation
-
-### Prerequisites
-
-- Python 3.7+
-- NumPy
-- NetworkX
-- GSQ (for conditional independence testing)
-
-### Setup
-
-```bash
-git clone https://github.com/lpossner/pc_algorithm.git
-cd pc_algorithm
-pip install numpy networkx gsq
-```
-
 ## Usage
 
 ### Basic Example
