@@ -154,33 +154,6 @@ The PC algorithm is named after its inventors, Peter Spirtes and Clark Glymour. 
 
 Under these assumptions, the PC algorithm is asymptotically correct—it converges to the true CPDAG as sample size approaches infinity.
 
-## Testing
-
-The implementation includes a basic test case that verifies the algorithm produces the expected output:
-
-```python
-# Run the main script
-python pc_algorithm.py
-```
-
-The assertion at the end confirms that the estimated graph matches the expected structure.
-
-## Limitations
-
-- Requires large sample sizes for reliable results
-- Sensitive to the choice of significance level
-- Assumes causal sufficiency (no hidden confounders)
-- Computational complexity increases with the number of variables
-- May produce different results with different variable orderings in finite samples
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## References
 
 1. Spirtes, P., Glymour, C., & Scheines, R. (2000). *Causation, Prediction, and Search*. MIT Press.
