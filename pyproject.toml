@@ -1,0 +1,13 @@
+[project]
+name = "pc-algorithm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gsq>=0.1.6",
+    "networkx>=3.6.1",
+    "numpy>=2.4.0",
+    "pandas>=2.3.3",
+    "scipy>=1.16.3",
+]
